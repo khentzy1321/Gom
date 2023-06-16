@@ -1,0 +1,88 @@
+
+nav {
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .logo h4 {
+    color: rgb(255, 255, 255);
+    margin-left: 10px; /* adjust the margin as needed */
+  }
+
+  .burger-menu {
+    display: none;
+}
+
+.burger-menu .icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.burger-menu .icon div {
+    width: 35px;
+    height: 5px;
+    background-color: #000;
+    margin: 6px 0;
+    transition: all 0.3s ease;
+}
+
+
+  .logo img {
+    height: 60px;
+    width: 60px;
+    display: inline;/* set the height of your logo */
+  }
+  .links a {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+
+  .links a:hover {
+    background-color: #949494;
+  }
+  .logo a{
+      text-decoration: none;
+  }
+  .header-main{
+    height: 600px;
+  }
+  .text-main{
+    letter-spacing: 1px;
+  }
+  .main-image img{
+    width: 100%;
+    height: 500px;
+  }
+  .img-pastor img{
+    height: 150px;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .seal-logo img{
+    height: 280px;
+    width: 280px;
+  }
+  .seal-logo {
+    /* display: flex; */
+    align-items: center;
+  }
+  .about{
+    height: 500px;
+  }
+  .pastor-chair img{
+    height: 100%;
+    width: 100%;
+  }
